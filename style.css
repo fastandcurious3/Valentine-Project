@@ -1,0 +1,60 @@
+body {
+    background-color: #ffb6c1; /* Soft pink background */
+    font-family: 'Chewy', cursive;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.gif {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+#finalMessage {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 20px;
+    display: none; /* Hide initially */
+}
+
+#question {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
